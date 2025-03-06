@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "title": "Leadership Summit",
+    "description": "A summit focused on empowering leaders with skills, strategies, and insights for impactful leadership.",
+    "organizer": "Central Student Council",
+    "date": "2025-02-15",
+    "image": "https://placehold.co/600x400?text=Leadership+Summit",
+    "registrationLink": "https://forms.gle/2pW4mXY6TneP6chP9"
+  },
+  {
+    "id": 2,
+    "title": "Leaders Convergence",
+    "description": "A gathering of leaders from diverse fields to share knowledge and foster collaboration.",
+    "organizer": "Central Student Council",
+    "date": "2025-03-10",
+    "image": "https://placehold.co/600x400?text=Leaders+Convergence",
+    "registrationLink": "https://forms.gle/2pW4mXY6TneP6chP9"
+  },
+  {
+    "id": 3,
+    "title": "Academic Olympics",
+    "description": "A competition celebrating academic excellence and intellectual skills across various disciplines.",
+    "organizer": "Central Student Council",
+    "date": "2025-04-05",
+    "image": "https://placehold.co/600x400?text=Academic+Olympic",
+    "registrationLink": "https://forms.gle/2pW4mXY6TneP6chP9"
+  },
+  {
+    "id": 4,
+    "title": "Deforestation",
+    "description": "A seminar addressing the causes, consequences, and solutions to deforestation worldwide.",
+    "organizer": "Central Student Council",
+    "date": "2025-02-15",
+    "image": "https://placehold.co/600x400?text=Deforestation",
+    "registrationLink": "https://forms.gle/2pW4mXY6TneP6chP9"
+  },
+  {
+    "id": 5,
+    "title": "HIV Awareness Campaign",
+    "description": "An initiative to educate communities on HIV prevention, treatment, and reducing stigma.",
+    "organizer": "Central Student Council",
+    "date": "2025-03-10",
+    "image": "https://placehold.co/600x400?text=HIV+Awareness+Campaign",
+    "registrationLink": "https://forms.gle/2pW4mXY6TneP6chP9"
+  },
+  {
+    "id": 6,
+    "title": "Hosting Workshop",
+    "description": "A workshop to enhance public speaking and hosting skills for professional and social events.",
+    "organizer": "Central Student Council",
+    "date": "2025-04-05",
+    "image": "https://placehold.co/600x400?text=Hosting+Workshop",
+    "registrationLink": "https://forms.gle/2pW4mXY6TneP6chP9"
+  },
+  {
+    "id": 7,
+    "title": "Logo Making Competition",
+    "description": "A creative competition to design logos that capture the essence of leadership of the JRU-CSC.",
+    "organizer": "Central Student Council",
+    "date": "2025-02-20",
+    "image": "https://placehold.co/600x400?text=Logo+Competition",
+    "registrationLink": "https://forms.gle/2pW4mXY6TneP6chP9"
+  },
+
+  {
+    "id": 8,
+    "title": "Career Symposium",
+    "description": "Create Oppurtunities for Rizalian connect with Companies",
+    "organizer": "Central Student Council",
+    "date": "2025-02-23",
+    "image": "https://placehold.co/600x400?text=Career+Symposium",
+    "registrationLink": "https://forms.gle/2pW4mXY6TneP6chP9"
+  }
+]

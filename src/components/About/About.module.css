@@ -1,0 +1,132 @@
+@import "../../variables.css";
+
+.container {
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  box-shadow: 0 16px 14px 0 #2e3123;
+  border-radius: 20px;
+  padding: 50px;
+  margin-top: 79px;
+  margin-left: 10%;
+  margin-right: 10%;
+  z-index: 1;
+
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  padding-bottom: 30px;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-align: center; 
+  line-height: 1.4; 
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; 
+  gap: 40px; 
+  
+}
+
+.aboutImage {
+  width: 568px; 
+  height: 513px;
+  border-radius: 15px;
+  object-fit: cover; 
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.aboutItems {
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  gap: 30px; 
+}
+
+.aboutItem {
+  color: var(--color-text);
+  display: flex;
+  flex-direction: row;
+  gap: 20px; 
+  align-items: flex-start; 
+  border-radius: 15px; 
+  padding: 80px;
+  background: rgba(255, 255, 255, 0.05); 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, bg 0.3s ease; 
+}
+
+
+.aboutItem h3, .aboutItem h4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0; 
+}
+
+.aboutItem p {
+  font-size: 18px; 
+  line-height: 1.6; 
+  margin: 0; 
+}
+
+@media screen and (max-width: 1358px) {
+
+  .container {
+    padding: 20px; 
+    margin: 0 5%;
+  }
+
+  .content {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .aboutImage {
+    display: none; 
+  }
+
+  .aboutItems {
+    margin-top: 20px;
+    gap: 20px; 
+  }
+
+  .aboutItem {
+    padding: 15px; 
+  }
+
+  .aboutItem h3, .aboutItem h4 {
+    font-size: 20px; 
+  }
+
+  .aboutItem p {
+    font-size: 16px; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 28px; 
+    padding-bottom: 20px;
+  }
+
+  .aboutItems {
+    gap: 15px; 
+  }
+
+  .aboutItem {
+    padding: 10px; 
+  }
+
+  .aboutItem h3, .aboutItem h4 {
+    font-size: 18px; 
+  }
+
+  .aboutItem p {
+    font-size: 14px; 
+  }
+}

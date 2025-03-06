@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "name": "Institute of Computer Engineers of the Philippines.SE JRU Ch.",
+      "acronym": "ICPEP.SE ",
+      "logo": "orgs/icpep.png",
+      "description": "The Institute of Computer Engineers of the Philippines (ICpEP) Student Edition is a professional organization dedicated to fostering growth and excellence among Computer Engineering students. It aims to bridge the gap between academic learning and industry standards by providing opportunities for technical skill development, professional networking, and leadership training.",
+      "tags": ["Computer Engineering", "Comp Eng Students", "Open to all years"],
+      "registrationLink": "https://forms.gle/exampleform1"
+    },
+    {
+      "id": 2,
+      "name": "Junior Philippine Computer Society JRU Ch.",
+      "acronym": "JPCS",
+      "logo": "orgs/jpcs.png",
+      "description": "The organization offers opportunities such as workshops, seminars, coding competitions, and industry partnerships to keep members updated with the latest advancements in technology. It also promotes collaboration, creativity, and ethical practices in IT. Through its initiatives, JPCS empowers students to become competent, responsible, and future-ready IT professionals committed to driving technological progress in society.",
+      "tags": ["Information Tech", "Open to all years"],
+      "registrationLink": "https://forms.gle/exampleform2"
+    },
+    {
+      "id": 3,
+      "name": "Electronics Engineering League",
+      "acronym": "ECEL",
+      "logo": "orgs/ecel.jpg",
+      "description": "The organization facilitates professional growth through hands-on workshops, seminars, competitions, and collaborative projects. It also fosters camaraderie and teamwork among students, creating a supportive community that promotes academic success and personal development.",
+      "tags": ["Electronics Engineering", "Open to all years"],
+      "registrationLink": "https://forms.gle/exampleform3"
+    },
+    {
+        "id": 4,
+        "name": "Legal Management Organization",
+        "acronym": "LMO",
+        "logo": "orgs/lmo.png",
+        "description": " Student legal management organizations typically focus on providing legal education and support to students. These organizations aim to develop students' understanding of legal issues, promote awareness of students' rights, and foster a sense of community among those interested in the legal field. They often organize seminars, workshops, and advocacy campaigns related to current legal matters, while also offering opportunities for students to engage in pro bono work, internships, or mentorship programs. The goal is to prepare students for a career in law while promoting a deeper understanding of justice and legal frameworks within the student body.",
+        "tags": ["Legal Management ", "Open to all years"],
+        "registrationLink": "https://forms.gle/exampleform3"
+    },
+    {
+        "id": 5,
+        "name": "Young Rizalian Servant Leaders",
+        "acronym": "YRSL",
+        "logo": "orgs/yrsl.png",
+        "description": "It aims to nurture leadership qualities rooted in selflessness, patriotism, and a strong sense of social responsibility. Members are encouraged to embody Rizal's ideals by promoting education, community service, and civic engagement. Through various initiatives such as leadership training, community outreach programs, and cultural activities, the organization strives to empower students to become ethical and compassionate leaders who contribute meaningfully to society.",
+        "tags": ["Open to all departments", "First and Second Year"],
+        "registrationLink": "https://forms.gle/exampleform3"
+    },
+    {
+        "id": 6,
+        "name": "Junior Philippines Institute of Accountants ",
+        "acronym": "JPIA",
+        "logo": "orgs/jpia.png",
+        "description": "JPIA offers a wide range of activities, including academic competitions, seminars, workshops, community outreach programs, and networking events with industry professionals. These initiatives aim to enhance technical skills, cultivate ethical practices, and prepare students for the challenges of the accounting profession. Through its commitment to holistic development, JPIA empowers members to become competent, ethical, and future-ready leaders in the accounting industry",
+        "tags": ["Accountancy", "First to Third Year"],
+        "registrationLink": "https://forms.gle/exampleform3"
+    },
+    {
+        "id": 7,
+        "name": "Nursing Society - JRU ",
+        "acronym": "NurSoc",
+        "logo": "orgs/nursoc.png",
+        "description": " The organization provides opportunities for professional development through workshops, seminars, community health outreach programs, and collaborative projects. It also fosters camaraderie and advocacy for health and wellness, encouraging members to embody the values of compassion, integrity, and dedication. The Nursing Society prepares its members to become skilled, empathetic, and socially responsible healthcare professionals.",
+        "tags": ["Nursing", "Open to all years"],
+        "registrationLink": "https://forms.gle/exampleform3"
+    },
+    {
+        "id": 8,
+        "name": "Rizalian Psychological Society",
+        "acronym": "RPsycheS",
+        "logo": "orgs/rps.png",
+        "description": "Dedicated to promoting sustainability and environmental awareness.",
+        "tags": ["Psychology", "Open to all years"],
+        "registrationLink": "https://forms.gle/exampleform3"
+    }
+  ]
+  

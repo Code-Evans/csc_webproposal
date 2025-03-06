@@ -1,0 +1,169 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.calendar {
+  flex: 1;
+  max-height: 400px; 
+  overflow-y: auto; 
+  padding: 18px 24px;
+  border-radius: 10px;
+  color: var(--text-gold);
+  background-color: rgba(12, 12, 12, 0.6); 
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.eventEvents {
+  color: var(--text-gold);
+}
+
+.eventList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.eventItem {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px;
+  margin-bottom: 12px;
+  color: azure;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.05);
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.eventItem:hover {
+  background-color: var(--color-hover); 
+  transform: translateY(-3px);
+}
+
+.eventItem.active {
+  background-color: var(--color-bg); 
+}
+
+.eventItem:last-child {
+  margin-bottom: 0;
+}
+
+.eventTitle {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-gold); 
+  color: azure;
+}
+
+.eventDate {
+  font-size: 16px;
+  font-weight: 500;
+  color: azure;
+}
+
+.details {
+  flex: 2;
+  padding: 18px 24px;
+  border-radius: 10px;
+  color: azure;
+  background-color: rgba(12, 12, 12, 0.6); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.eventDetails {
+  display: flex;
+  flex-direction: row; 
+  gap: 20px;
+  align-items: flex-start;
+  color: azure;
+}
+
+.eventImage {
+  flex: 1;
+  max-width: 568px; 
+  max-height: 513px;
+  border-radius: 8px; 
+  
+}
+
+.eventContent {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: azure;
+}
+
+.eventTitle {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: azure;
+}
+
+.eventDescription {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: azure;
+}
+
+.registerButton {
+  text-decoration: none;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 24px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  max-width: 200px;
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  text-align: center;
+}
+
+
+.registerButton:hover {
+  color: var(--color-bg);
+  transform: scale(1.05); 
+  background-color: var(--color-hover); 
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .calendar {
+    display: none;
+  }
+
+  .details {
+    flex: 1;
+  }
+
+  .eventDetails {
+    flex-direction: column; /* Stacked layout for smaller screens */
+    align-items: center;
+    text-align: center;
+  }
+
+  .eventImage {
+    max-width: 100%; /* Full width for mobile */
+  }
+
+  .registerButton {
+    max-width: none; 
+  }
+}

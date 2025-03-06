@@ -1,0 +1,25 @@
+
+.footer {
+    background-color: var(--color-bg); 
+    padding: 20px;
+    text-align: center;
+  }
+  .title{
+    max-width: 1200px;
+    margin: auto;
+  }
+  .footerHeading {
+    font-size: .6rem;
+    margin-top: 5px;
+    color: var(--color-text);
+    text-transform: uppercase;
+    font-family: "Outfit", Arial, Helvetica, sans-serif;
+  }
+  .footerText {
+    font-size: .8rem;
+    color: var(--color-text);
+    margin-top: 5px;
+    text-transform: none;
+  }
+  
+  

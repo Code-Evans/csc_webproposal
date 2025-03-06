@@ -1,0 +1,132 @@
+
+.card {
+    flex: 0 0 100%;
+    max-width: 345px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgba(12, 12, 12, 0.6);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); 
+    padding: 18px 24px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+.card:hover {
+    color: var(--color-gold);
+    transform: translateY(-5px); 
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6); 
+}
+
+
+.image {
+    margin-bottom: 26px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.2; 
+    text-align: center; 
+  }
+  
+  .description {
+    margin-top: 6px;
+    font-size: 20px; 
+    font-weight: 400;
+    line-height: 1.5; 
+    color: var(--color-muted);
+    text-align: center; 
+  }
+  
+  .tags {
+    width: 100%;
+    margin-top: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px; 
+    list-style: none;
+    padding: 0; 
+    justify-content: center; 
+  }
+  
+  .tag {
+    font-size: 16px;
+    font-weight: 500; 
+    border-radius: 5px;
+    background: var(--color-bg);
+    padding: 6px 14px; 
+    transition: transform 0.2s ease, bg 0.2s ease; 
+  }
+  
+  .tag:hover {
+    background: var(--color-hover);
+    transform: scale(1.05); 
+  }
+  
+  .links {
+    width: 100%;
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+    gap: 12px; 
+  }
+  
+  .link {
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: var(--color-gols);
+    padding: 8px 20px; 
+    transition: transform 0.3s ease, transform 0.3s ease; 
+  }
+  
+  .link:hover {
+    color: var(--color-gold);
+    background: var(--color-hover-alt); 
+    transform: scale(1.1); 
+  }
+  
+
+  @media (max-width: 768px) {
+    .title {
+      font-size: 20px;
+    }
+  
+    .description {
+      font-size: 18px;
+    }
+  
+    .tag {
+      font-size: 14px;
+    }
+  
+    .link {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+      font-size: 18px;
+    }
+  
+    .description {
+      font-size: 16px;
+    }
+  
+    .tag {
+      font-size: 12px;
+      padding: 4px 12px;
+    }
+  
+    .link {
+      font-size: 14px;
+      padding: 6px 16px;
+    }
+  }
+  

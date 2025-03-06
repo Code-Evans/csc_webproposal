@@ -1,0 +1,58 @@
+.container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+
+.execs {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.execCard {
+  background-color: transparent;
+  border: 1px solid #ddd;
+  border-radius: 12px; 
+  padding: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  transition: transform 0.3s, bg 0.3s;
+}
+
+.execCard:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.execImage {
+  width: 120px; 
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #ddd; 
+  margin-bottom: 1rem;
+  object-fit: cover; 
+}
+
+.execName {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.execPosition {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 0;
+  text-align: center;
+}

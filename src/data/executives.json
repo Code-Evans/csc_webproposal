@@ -1,0 +1,54 @@
+[   
+    {
+    "name": "Jake E. Fabon",
+    "imageSrc": "orgPhotos/csc_photos/executives/Pres.jpg",
+    "Position": "President"
+    },
+    {
+    "name": "Geoff Allison",
+    "imageSrc": "orgPhotos/csc_photos/executives/VPInt.jpg",
+    "Position": "VP Internal"
+    },
+    {
+    "name": "Shaeira Habana",
+    "imageSrc": "orgPhotos/csc_photos/executives/VPExt.jpg",
+    "Position": "VP External"
+    },
+    {
+    "name": "Jheniefer Salenga",
+    "imageSrc": "orgPhotos/csc_photos/executives/Sec.jpg",
+    "Position": "Secretary"
+    },
+    {
+    "name": "Gian Khasandra",
+    "imageSrc": "orgPhotos/csc_photos/executives/Treas.jpg",
+    "Position": "Treasurer"
+    },
+    {
+    "name": "Adrian Evangelista",
+    "imageSrc": "orgPhotos/csc_photos/executives/AsstTreas.jpg",
+    "Position": "Asst. Treasurer"
+    },
+    {
+    "name": "Arlance Delmo",
+    "imageSrc": "orgPhotos/csc_photos/executives/Audit.jpg",
+    "Position": "Auditor"
+    },
+    {
+    "name": "Elle Alimagno",
+    "imageSrc": "orgPhotos/csc_photos/executives/PROInt.png",
+    "Position": "Public Relations Officer"
+    },
+    {
+    "name": "Denise Samson",
+    "imageSrc": "orgPhotos/csc_photos/executives/OCC.jpg",
+    "Position": "Overall Chairman Comittee"
+    },
+    {
+    "name": "Chezca Bernaldez",
+    "imageSrc": "orgPhotos/csc_photos/executives/AssistanSec.jpg",
+    "Position": "Business Manager"
+    }
+
+    
+]
